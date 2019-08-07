@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sabur Ahmed - Creative Front End Developer</title>
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest"> -->
+    <link rel='icon' href='favicon.ico' type='image/x-icon'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -15,7 +20,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="home">
         <div class="container-fluid p-0">
             <div class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="#"><img src="assets/img/logo.png" width="50" height="50" alt="Logo"></a>
@@ -27,16 +32,19 @@
                     <div class="mr-auto"></div>
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#section1">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">My Works</a>
+                            <a class="nav-link" href="#section2">SKills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#my-works">Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -45,65 +53,98 @@
 
 
 
-        <div class="container text-center">
+        <!-- <div class="container text-center">
             <div class="row">
-                <div class="col-md-7 col-sm-12">
+                <div class="col-md-12 col-sm-12">
                     <h6>Hi, my name is</h6>
                     <h1 class="bounce-top">SABUR AHMED</h1>
                     <p class="tracking-in-contract-bck">
                         A creative Front-End Developer based in Lagos, Nigeria.
                     </p>
                     <button class="btn btn-light px-5 py-2 vibrate-1">HIRE ME</button>
-                    <button class="btn btn-light px-5 py-2 vibrate-1">DOWNLOAD CV</button>
+                    <button class="btn btn-light px-5 py-2">RESUMÉ</button>
                 </div>
                 <div class="col-md-5 col-sm-12 h-25">
                     <img src="assets/img/main picture.svg" alt="Books">
                 </div>
             </div>
 
+        </div> -->
+        <div class="container text-left">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 px-3">
+                    <h6>Hi, my name is</h6>
+                    <h1 class="bounce-top">SABUR AHMED.</h1>
+                    <h1 class="tracking-in-contract-bck">
+                        I create nice things with my computer.
+                    </h1>
+                    <h4 class="tracking-in-contract-bck">
+                        I'm a creative Front-End Developer based in Lagos, Nigeria.
+                    </h4>
+                    <div>
+                        <a href="mailto: saburahmed794@gmail.com" class="btn btn-light px-5 py-2 vibrate-1">HIRE ME</a>
+                        <a href="https://drive.google.com/file/d/1-0z3Xb_HV-64ctGszuGK9JwwHKAYHbBn/view?usp=sharing"
+                            target="_blank" class="btn btn-light px-5 py-2 btn-res">RESUMÉ</a>
+                    </div>
+                </div>
+            </div>
         </div>
-
-
-
-
     </header>
+
     <main>
-        <section class="section-1">
+        <section class="section-1" id="section1">
             <div class="container text-center">
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="pray">
-                            <img src="assets/img/Sabur Portfolio Image.png" alt="Pray">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="profile-photo">
+                            <img src="assets/img/Sabur Portfolio Image.png" alt="Sabur's Photo">
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="panel text-left">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="panel text-justify">
                             <h1>About Me</h1>
-                            <p class="pt-4">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quo quis enim consequatur
-                                delectus sed, odio esse nam excepturi maiores.
+                            <p>
+                                I am a creative Front-End Developer with strength in the Front-End side of Development.
+                                My background in Mechanical Engineering, Corporate Strategy and Technology inform my
+                                mindful and definitive approach to problem solving. As a Multipotentialite, I am
+                                passionate about anything Design, Arts, Entrepreneurship and particularly anything
+                                Technology and its ability to change lives for better. I consider myself a problem
+                                solver, eager to build on my knowledge to solve the problems of humanity in any way
+                                I can.
                             </p>
                             <p>
-                                I'm an enthusiastic and fast learning person with a broad and acute interest in anything
-                                Technology and
-                                Engineering,
-                                Design, Arts and Entrepreneurship. As a Multipotentialite, I particularly enjoy
-                                collaborating with individuals
-                                from different
-                                walks of life to develop new ways or modify existing methods to solve challenges. I
-                                learn quickly and adapt to
-                                roles swiftly,
-                                striving to add value in every capacity I function. I'm passionate about working with
-                                great people to bring
-                                forward great products: whether that's through business development, design, or
-                                engineering.
+                                My hunger for problem-solving and determination into action has contributed to my career
+                                achievements during my time as Corporate Strategist and Head of I.T. at
+                                <a href="http://www.countryhomes.com.ng" target="_blank" class="mail-link"><span>Country
+                                        Homes Limited</span></a>,
+                                and as a Front-End Developer at <a href="https://stutern.com/" target="_blank"
+                                    class="mail-link"><span>Stutern</span></a>.
+                                At Country Homes I led the I.T. operations which helps boost productivity for the firm.
+                                Meanwhile due to my willingness to know more about the core side of technology, which is
+                                Software Development, I gave myself a new challenge and enrolled at Stutern Graduate
+                                Accelerator
+                                which has been my greatest decision so far because it shaped me into what I have really
+                                wanted
+                                to be. Computer Programming is limitless, the feel of creating something from absolutely
+                                nothing,
+                                taking a black canvas and producing solutions... It is an extremely interesting thing,
+                                and it is
+                                what I want to do forever.
+                            </p>
+                            <p>
+                                I am currently at Stutern as a Front-End Developer and I am open to new challenges.
+                                Reach out to me
+                                on <a href="mailto: saburahmed@gmail.com"
+                                    class="mail-link"><span>saburahmed@gmail.com</span></a>
+                                to connect on topics like Technology, Arts & Design, Entreprenuership and Environmental
+                                Advocacy.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="section-2 container-fluid p-0">
+        <section class="section-2 container-fluid p-0" id="section2">
             <div class="cover">
                 <div class="content text-center">
                     <h1>Skills and Tools I'm Experienced With</h1>
@@ -144,7 +185,7 @@
                     </div>
                 </div>
             </div>
-            <div class="purchase text-center">
+            <div class="works text-center" id="my-works">
                 <h1>My Latest Works</h1>
                 <p>Check out some of my latest works below.</p>
                 <div class="cards">
@@ -154,7 +195,7 @@
                         <div class="card">
                             <div class="card-body">
                                 <div class="title">
-                                    <h5 class="card-title">MOVIDOM</h5>
+                                    <h5 class="card-title">Movidom</h5>
                                 </div>
                                 <img class="card-img-top" src="assets/img/Movidom.png" alt="Movidom Project">
                                 <p class="card-text">
@@ -162,7 +203,8 @@
                                 </p>
                                 <div class="pricing">
                                     <h1></h1>
-                                    <a href="#" class="btn btn-dark px-5 py-2 mb-5">Check it Out</a>
+                                    <a href="https://movidom.netlify.com" target="_blank"
+                                        class="btn btn-dark px-5 py-2 mb-5">Check it Out</a>
                                 </div>
                             </div>
                         </div>
@@ -170,15 +212,16 @@
                         <div class="card">
                             <div class="card-body">
                                 <div class="title">
-                                    <h5 class="card-title">Yummy!</h5>
+                                    <h5 class="card-title">BMI Calculator</h5>
                                 </div>
-                                <img class="card-img-top" src="assets/img/Yummy.png" alt="Movidom Project">
+                                <img class="card-img-top" src="assets/img/bmi-calc.png" alt="BMI Calc React">
                                 <p class="card-text">
-                                    A Meal Planner App built using custom API from Airtable
+                                    A BMI Calculator App built with ReactJS.
                                 </p>
                                 <div class="pricing">
                                     <h1></h1>
-                                    <a href="#" class="btn btn-dark px-5 py-2 mb-5">Check it Out</a>
+                                    <a href="https://bmi-calculator.netlify.com" target="_blank"
+                                        class="btn btn-dark px-5 py-2 mb-5">Check it Out</a>
                                 </div>
                             </div>
                         </div>
@@ -186,15 +229,16 @@
                         <div class="card">
                             <div class="card-body">
                                 <div class="title">
-                                    <h5 class="card-title">Flybeta</h5>
+                                    <h5 class="card-title">Yummy!</h5>
                                 </div>
-                                <img class="card-img-top" src="assets/img/Yummy.png" alt="Movidom Project">
+                                <img class="card-img-top" src="assets/img/Yummy.png" alt="Yummy Meal Planner">
                                 <p class="card-text">
-                                    A Travel Booking App.
+                                    A Meal Planner App built using custom API from Airtable
                                 </p>
                                 <div class="pricing">
                                     <h1></h1>
-                                    <a href="#" class="btn btn-dark px-5 py-2 mb-5">Check it Out</a>
+                                    <a href="https://meal-planner-app.netlify.com/"
+                                        class="btn btn-dark px-5 py-2 mb-5">Check it Out</a>
                                 </div>
                             </div>
                         </div>
@@ -205,13 +249,14 @@
                                 <div class="title">
                                     <h5 class="card-title">Flybeta</h5>
                                 </div>
-                                <img class="card-img-top" src="assets/img/Yummy.png" alt="Movidom Project">
+                                <img class="card-img-top" src="assets/img/flybeta-project.png" alt="Flybeta Project">
                                 <p class="card-text">
-                                    A Travel Booking App.
+                                    A Travel Booking App built using JavaScript.
                                 </p>
                                 <div class="pricing">
                                     <h1></h1>
-                                    <a href="#" class="btn btn-dark px-5 py-2 mb-5">Check it Out</a>
+                                    <a href="https://meal-planner-app.netlify.com/"
+                                        class="btn btn-dark px-5 py-2 mb-5">Check it Out</a>
                                 </div>
                             </div>
                         </div>
@@ -223,14 +268,14 @@
 
 
 
-        <section class="section-3">
+        <!-- <section class="section-3" id="section3">
             <div class="container text-center">
                 <h1 class="text-dark">What People Say About Me</h1>
-                <!-- <p class="text-secondary">Lorem ipsum dolor sit amet.</p> -->
+                <p class="text-secondary">Lorem ipsum dolor sit amet.</p>
             </div>
             <div class="team row">
                 <div class="col-md-4 col-12 text-center">
-                    <!-- Card 1 -->
+                    Card 1
                     <div class="card mr-2 d-inline-block shadow-lg">
                         <div class="card-img-top">
                             <img src="assets//UI-face-3.jpg" alt="Member" class="img-fluid border-radius p-4">
@@ -248,18 +293,18 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-12">
-                    <!-- Carousel Started -->
+                    Carousel Started
                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active text-center">
-                                <!-- Card 2 -->
+                                Card 2
                                 <div class="card mr-2 d-inline-block shadow-lg">
                                     <div class="card-img-top">
-                                        <img src="assets//UI-face-1.jpg" alt="Member"
-                                            class="img-fluid rounded-circle w-50 p-4">
+                                        <img src="assets//UI-face-3.jpg" alt="Member"
+                                            class="img-fluid border-radius p-4">
                                     </div>
                                     <div class="card-body">
-                                        <h3 class="card-title">Allen Jones</h3>
+                                        <h3 class="card-title">Blalock Jolene</h3>
                                         <p class="card-text">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ducimus
                                             dolorum
@@ -273,14 +318,14 @@
                                 </div>
                             </div>
                             <div class="carousel-item text-center">
-                                <!-- Card-3 -->
+                                Card-3
                                 <div class="card mr-2 d-inline-block shadow-lg">
                                     <div class="card-img-top">
-                                        <img src="assets/UI-face-2.jpg" alt="Member"
-                                            class="img-fluid rounded-circle w-50 p-4">
+                                        <img src="assets//UI-face-3.jpg" alt="Member"
+                                            class="img-fluid border-radius p-4">
                                     </div>
                                     <div class="card-body">
-                                        <h3 class="card-title">Jeffrey Bezos</h3>
+                                        <h3 class="card-title">Blalock Jolene</h3>
                                         <p class="card-text">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ducimus
                                             dolorum
@@ -297,13 +342,13 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-12 text-center">
-                    <!-- Card 4 -->
+                    Card 4
                     <div class="card mr-2 d-inline-block shadow-lg">
                         <div class="card-img-top">
-                            <img src="assets/UI-face-4.jpg" alt="Member" class="img-fluid border-radius p-4">
+                            <img src="assets//UI-face-3.jpg" alt="Member" class="img-fluid border-radius p-4">
                         </div>
                         <div class="card-body">
-                            <h3 class="card-title">Anita Johnson</h3>
+                            <h3 class="card-title">Blalock Jolene</h3>
                             <p class="card-text">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ducimus dolorum
                                 temporibus aut. Placeat assumenda voluptatem animi, earum eveniet, sapiente iusto,
@@ -315,21 +360,21 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
-        <section class="section-4 container-fluid p-0 text-center">
+        <section class="section-4 container-fluid p-0 text-center" id="section4">
             <div class="row">
                 <div class="col-md-12 col-sm-12">
                     <h1>Do You Want Me To Be Part Of Your Team?</h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae unde iusto sint sed, aut
-                        ullam tempora laborum officiis ipsam similique molestiae sunt porro aperiam ipsa amet blanditiis
-                        nihil quod voluptate!
+                        I am good at what I do not because of what I know, but because of my thirst of knowledge, my
+                        ability to understand fast, and my willingness to change and evolve to make the world a better
+                        place.
                     </p>
                 </div>
             </div>
 
-            <button class="btn btn-light px-5 py-2 vibrate-1">HIRE ME</button>
+            <a href="mailto:saburahmed794@gmail.com" class="btn btn-light px-5 py-2 vibrate-1 btn-res">HIRE ME</a>
             <!-- <div class="platform row">
                     <div class="col-md-6 col-sm-12 text-right">
                         <div class="desktop shadow-lg">
@@ -357,12 +402,13 @@
         </section>
 
     </main>
-    <footer>
+    <footer id="contact">
         <div class="container-fluid p-0">
             <div class="row text-left">
                 <div class="col-md-5">
                     <h1 class="text-light">Get In Touch</h1>
                     <p class="text-muted">This site is still under development.</p>
+                    <p class="text-muted">I am available anytime, anyday.</p>
                     <p class="pt-4 text-muted">
                         Copyright ©2019 All right reserved | This website is built by
                         <span>Sabur Ahmed</span>
@@ -396,7 +442,9 @@
                         <i class="fab fa-twitter"></i> -->
                         <a class="fab fa-github" href="https://github.com/saburahmed" target="_blank"
                             title="Github"></a>
-                        <a class="fab fa-figma"></a>
+                        <a class="fab fa-figma"
+                            href="https://www.figma.com/files/user/702125038126255377/Sabur-Olasunkanmi%2C-AHMED"
+                            target="_blank"></a>
                         <a class="fab fa-linkedin" href="https://www.linkedin.com/in/saburahmed" target="_blank"
                             title="LinkedIn"></a>
                         <a class="fab fa-medium" href="https://medium.com/@saburahmed" target="_blank"

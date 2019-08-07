@@ -1,3 +1,9 @@
+@media only screen and (max-width: 1024px) {
+  .section-1 {
+    overflow-y: hidden;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   header .navbar-brand {
     padding-left: 1rem;
@@ -31,42 +37,51 @@
     padding: 6vmin 4vmin;
   }
 
-  .section-3 .row .col-md-6{
-      text-align: center !important;
+  .section-3 .row .col-md-6 {
+    text-align: center !important;
   }
 
-  .section-3 .desktop i{
-      font-size: 8vmin;
+  .section-3 .desktop i {
+    font-size: 8vmin;
   }
 
-  .section-4 .carousel-item{
-      padding-left: 0.6rem;
+  .section-4 .carousel-item {
+    padding-left: 0.6rem;
   }
 
-  .section-4 .team{
-      display: flex;
-      flex-direction: column;
-      align-content: center;
+  .section-4 .team {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
   }
 
-  .section-4 .carousel-inner{
-      width: 24rem;
+  .section-4 .carousel-inner {
+    width: 24rem;
   }
 }
 
-
-@media only screen and (max-width: 425px){
-    footer .row .col-md-2{
-        margin-top: 8vmin;
-    }
+@media only screen and (max-width: 425px) {
+  footer .row .col-md-2 {
+    margin-top: 8vmin;
+  }
 }
 
-@media only screen and (max-width: 320px){
-    .section-4 .card{
-        width: 18rem;
-    }
+@media only screen and (max-width: 375px) {
+  .section-4 .btn-res {
+    margin-top: -1rem !important;
+  }
+}
 
-    .section-4 .carousel-inner{
-        margin-left: -14vmin;
-    }
+@media only screen and (max-width: 320px) {
+  .section-4 .card {
+    width: 18rem;
+  }
+
+  .section-4 .carousel-inner {
+    margin-left: -14vmin;
+  }
+  
+  .section-4 .btn-res {
+    margin-top: -1rem !important;
+  }
 }

@@ -28,6 +28,8 @@ header a{
 header{
     background: #dd2476;
     background: var(--bggradient);
+    height: 100vh;
+    overflow-y: hidden;
 }
 
 .dropdown-content{
@@ -70,27 +72,23 @@ header .nav-link:hover{
     color: black;
 }
 
-header .row .col-md-5{
+header .row .col-md-12{
     padding: 4.2vmin 1vmin;
 }
 
-header .row .col-md-7{
-    padding: 22vmin 1vmin;
+header .row .col-md-12{
+    padding: 25vmin 1vmin;
     padding-bottom: 35vmin;
     font-family: var(--Rubik);
     color: white;
 }
 
-header .row .col-md-5 img{
-    width: 90%;
-}
-
-header .container .col-md-7 h6{
+header .container .col-md-12 h6{
     padding: 1vmin;
     letter-spacing: 4px;
 }
 
-header .container .col-md-7 h1{
+header .container .col-md-12 h1{
     font-size: 8vmin;
     font-weight: bold;
     padding: 0.1em 0em;
@@ -101,11 +99,14 @@ header .container .col-md-7 p{
     padding-top: 1vmin 0 1vmin 0;
 }
 
-header .container .col-md-7 button{
+header .container .col-md-12 a{
     border-radius: 30px;
     font-weight: bold;
 }
 
+.btn-res{
+    margin-left: 10px!important;
+}
 
 
 /* Section-1 */
@@ -113,7 +114,7 @@ header .container .col-md-7 button{
     padding: 20vmin 0;
 }
 
-.section-1 .row .col-md-6 .pray img{
+.section-1 .row .col-md-6 .profile-photo img{
     opacity: 0.8;
     width: 80%;
     border-radius: 0.2em;
@@ -125,12 +126,12 @@ header .container .col-md-7 button{
 
 .section-1 .row .col-md-6 .panel{
     position: absolute;
-    top: 7vmin;
+    top: -17vmin;
     left: -18vmin;
     background: white;
     border-radius: 3px;
     text-align: left;
-    padding: 13vmin 5vmin 20vmin 10vmin;
+    padding: 13vmin 7.5vmin 20vmin 7.5vmin;
     box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
     font-family: var(--Rubik);
     z-index: 1;
@@ -147,11 +148,21 @@ header .container .col-md-7 button{
     color: rgba(0, 0, 0, 0.5);
 }
 
+.mail-link{
+    color: tomato;
+}
+
+.mail-link:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: tomato;
+}
+
 /* Section 2 */
 .cover{
     width: 100%;
     height: 55vmin;
-    background: url('../assets/pexels-photo-452738b.jpg');
+    background: url('../assets/img/laptop.jpg');
     background-position: -24rem -90rem;
     background-size: 150%;
     position: relative;
@@ -201,19 +212,19 @@ header .container .col-md-7 button{
     font-family: var(--Patua);
 }
 
-.purchase > h1{
+.works > h1{
     padding-top: 15vmin;
     padding-bottom: 0.1em;
     font-family: var(--Lobster);
 }
 
-.purchase > p{
+.works > p{
     color: var(--light-black);
     font-size: 3vmin;
     /* padding-bottom: 10vmin; */
 }
 
-.purchase .cards .card{
+.works .cards .card{
     width: 22rem;
     margin: 3vmin;
 }
